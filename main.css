@@ -16,6 +16,11 @@
 .input-cont {
     width: 70%;
 }
+
+.gifme {
+    width: 100px;
+    height: 100px;
+}
 .canv-cont {
     display: none;
     background-color: #e3e3e3;
@@ -26,12 +31,19 @@
     flex-direction: row;
 }
 
+button:hover {
+    cursor: pointer;
+}
+img:hover {
+    cursor: pointer;
+}
 
 button {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 
 }
 canvas {
@@ -53,6 +65,7 @@ input {
     text-align: center;
     font-family: fantasy;
     font-size: large;
+  
 
 }
 
@@ -157,6 +170,7 @@ footer {
 .text-up {
     grid-column: 2/3;
     grid-row: 1;
+    cursor: pointer;
 }
 .text-down {
     grid-row: 3;
